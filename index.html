@@ -14,12 +14,15 @@
             filter: blur(8px);
             position: absolute;
         }
+        body {
+            height: 100dvh;
+        }
     </style>
 </head>
-<body class="vh-100">
+<body>
     <div class="bgimg vw-100 vh-100"></div>
     <div class="container position-relative d-flex flex-column justify-content-center align-items-center gap-5 vh-100">
-        <h1 class="display-1" style="font-weight: 700; -webkit-text-stroke-color: white; -webkit-text-stroke-width: 1px;">Dad Jokes!</h1>
+        <h1 class="display-1" style="font-weight: 700; -webkit-text-stroke-color: white; -webkit-text-stroke-width: 0.5px;">Dad Jokes!</h1>
         <div class="card ps-5 pe-5 pt-3 pb-3 fs-5" id="jokecont"></div>
         <button id="btn" class="btn btn-danger fs-5">Click me for a new joke!</button>        
     </div>
